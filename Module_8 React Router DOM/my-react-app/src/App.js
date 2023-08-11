@@ -1,11 +1,20 @@
 
-// 1) /////////////// ////////////////////////
-// import React from "react"
-// import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
-// import {Home} from "./pages/Home"
-// import {Contact} from "./pages/Contact"
-// import {Menu} from "./pages/Menu"
- 
+import React from "react"
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
+import {Home} from "./pages/Home"
+import {Contact} from "./pages/Contact"
+import {Menu} from "./pages/Menu"
+import {Navbar} from "./pages/Navbar"
+
+
+
+
+
+
+
+
+
+// 1) /////////////// //////////////////////// 
 // export default function App()  {
     
 //     return (
@@ -28,12 +37,7 @@
 // };
 
 // 2) ////////////////////////////////////////////////////////
-import React from "react"
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import {Home} from "./pages/Home"
-import {Contact} from "./pages/Contact"
-import {Menu} from "./pages/Menu"
-import {Navbar} from "./pages/Navbar"
+
 
  
 export default function App()  {    

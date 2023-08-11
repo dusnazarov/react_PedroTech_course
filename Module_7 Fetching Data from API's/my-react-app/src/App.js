@@ -1,7 +1,8 @@
+import Axios from "axios"
+import React, {useState, useEffect} from "react"
+
 
 // 1) /////////////// fetch()  ////////////////////////
-// import React from "react"
-
 // export default function App()  {
 
 //     fetch("https://catfact.ninja/fact")
@@ -17,9 +18,6 @@
 // };
 
 // 2) //////////////// Axios   ///////////////////////
-// import React from "react"
-// import Axios from "axios"
-
 // export default function App()  {
 
 //    Axios.get("https://catfact.ninja/fact")
@@ -38,9 +36,6 @@
 
 
 // 4) ///////////////////////////////////////
-// import React, {useState, useEffect} from "react"
-// import Axios from "axios"
-
 // export default function App()  {
 //     const [catFact, setCatFact] = useState("")
 
@@ -64,9 +59,6 @@
 // };
 
 // // 5) ///////////////////////////////////////
-// import React, {useState, useEffect} from "react"
-// import Axios from "axios"
-
 // export default function App()  {
 //     const [name, setName] = useState("")  
 
@@ -96,41 +88,36 @@
 
 
 //  6) ///////////////////////////////////////
-import React, {useState, useEffect} from "react"
-import Axios from "axios"
+// export default function App()  {
+//     const [name, setName] = useState("")
+//     const [PredictedAge, setPredictedAge] = useState(0)  
 
-export default function App()  {
-    const [name, setName] = useState("")
-    const [PredictedAge, setPredictedAge] = useState(0)  
-
-    const fetchData = () => {
-        Axios.get(`https://api.agify.io/?name=${name}`)
-        .then((res) => {
-            setPredictedAge(res.data.age)
-        });
+//     const fetchData = () => {
+//         Axios.get(`https://api.agify.io/?name=${name}`)
+//         .then((res) => {
+//             setPredictedAge(res.data.age)
+//         });
         
-    };
+//     };
 
-    const writeName = (event) => {
-        return (
-            setName(event.target.value)
+//     const writeName = (event) => {
+//         return (
+//             setName(event.target.value)
 
-        );
-    };
+//         );
+//     };
     
-    return (
-        <div>
-            <input placeholder="Ex. Elyor..." onChange={writeName}/>
-            <button onClick={fetchData}>Predict Age</button>
-            <h3>Predicted Age: {PredictedAge} </h3>
-        </div>       
-    );
-};
+//     return (
+//         <div>
+//             <input placeholder="Ex. Elyor..." onChange={writeName}/>
+//             <button onClick={fetchData}>Predict Age</button>
+//             <h3>Predicted Age: {PredictedAge} </h3>
+//         </div>       
+//     );
+// };
 
 
 // // 7) ///////////////////////////////////////
-// import React, {useState, useEffect} from "react"
-// import Axios from "axios"
 
 // export default function App()  {
 //     const [name, setName] = useState("")
@@ -163,13 +150,8 @@ export default function App()  {
 
 
 // 8) ///////////////////////////////////////
-// import React, {useState, useEffect} from "react"
-// import Axios from "axios"
-
 // export default function App()  {
 //     const [generatedExcuse, setGenratedExcuse] = useState("")
-
-
    
 
 //     const fetchExcuse = (excuse) => {

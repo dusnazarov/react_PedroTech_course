@@ -1,4 +1,3 @@
-// 1) /////////////////////////////////////////
 import { useQuery } from "@tanstack/react-query"
 import Axios from "axios"
 

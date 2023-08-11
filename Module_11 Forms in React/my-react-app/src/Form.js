@@ -1,7 +1,9 @@
+import { useForm } from "react-hook-form"
+import * as yup from 'yup'
+import { yupResolver } from '@hookform/resolvers/yup'
+
+
 // 1) ////////////////////////////////////////////////////////
-// import { useForm } from "react-hook-form"
-
-
 // export const Form = () => {
 //     const { register, handleSubmit } = useForm()
 
@@ -23,10 +25,6 @@
 // npm install react-hook-form yup 
 
 // 2) ////////////////////////////////////////////////////////
-import { useForm } from "react-hook-form"
-import * as yup from 'yup'
-import { yupResolver } from '@hookform/resolvers/yup'
-
 export const Form = () => {   
 
     const schema = yup.object().shape({

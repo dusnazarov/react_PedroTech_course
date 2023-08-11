@@ -1,28 +1,28 @@
+import React from "react"
+import {User} from "./User"
+
 // 1)  ///////////////////////////////////////////
-// import React from "react"
-
-// export default function App() {
-//     return(
-//         <div>
-//             <User />
-//         </div>
-//     );
+export default function App() {
+    return(
+        <div>
+            <User />
+        </div>
+    );
         
-// }
+}
 
-// const User = () => {
-//     return (
-//         <div>
-//             <h5>1 ) My name is Bahrom, my email is bahrom@gmail.com, I am 21 years old </h5>
-//             <h5>2 ) My name is Donyor, my email is donyor@gmail.com, I am 25 years old </h5>
-//             <h5>3 ) My name is Bahtiyor, my email is bahtiyor@gmail.com, I am 25 years old </h5>
-//             <h5>4 ) My name is Qodir, my email is qodir@gmail.com, I am 28 years old </h5>            
-//         </div>
-//     );
-// }
+const User = () => {
+    return (
+        <div>
+            <h5>1 ) My name is Bahrom, my email is bahrom@gmail.com, I am 21 years old </h5>
+            <h5>2 ) My name is Donyor, my email is donyor@gmail.com, I am 25 years old </h5>
+            <h5>3 ) My name is Bahtiyor, my email is bahtiyor@gmail.com, I am 25 years old </h5>
+            <h5>4 ) My name is Qodir, my email is qodir@gmail.com, I am 28 years old </h5>            
+        </div>
+    );
+}
 
 // 2)  ///////////////////////////////////////////
-// import React from "react"
 
 // export default function App() {
 //     return (
@@ -73,7 +73,6 @@
 // };
 
 // 3) ///////////////////////////////////////////
-// import React from "react"
 
 // export default function App() {
 //     const user1 = 
@@ -134,9 +133,6 @@
 
 
 // 4)  ///////////////////////////////////////////
-// import React from "react"
-
-
 // export default function App() {
 //     const users = [
 //         {
@@ -201,10 +197,6 @@
 
 
 // 5)  ///////////////////////////////////////////
-// import React from "react"
-// import {User} from "./User"
-
-
 // export default function App() {
 //     const users = [
 //         {
@@ -252,8 +244,6 @@
 // }
 
 // 6) ////////////////////////////////////////////
-// import React from "react"
-
 // export default function App() {
 //     const users = [
 //         {
@@ -298,7 +288,6 @@
 // };
 
 // 7) ///////////////////////////////////////////
-// import React from "react"
 
 // export default function App() {
 //     const users = [

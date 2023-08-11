@@ -1,6 +1,8 @@
-// 1) /////////////////////////////////////////
-// import React, {useState} from "react";
+import React, {useState} from "react";
+import React, {useState} from "react";
 
+
+// 1) /////////////////////////////////////////
 // export default function App() {
 //     const [count, setCount] = useState(0)
 
@@ -28,8 +30,6 @@
 
 
 // 2) ///////////////  Show and Hide text  //////////////////////////
-// import React, {useState} from "react";
-
 // export default function App() {
 //     const [showText, setShowText] = useState(true)
 
@@ -51,24 +51,24 @@
 
 
 // 3) ///////////////  Change Color   //////////////////////////
-import React, {useState} from "react";
 
-export default function App() {
-    const [textColor, setTextColor] = useState("black")
 
-    const showAndHide = () => {
-        return (
-            setTextColor(textColor === "black"? "red" :"black")
-        )
-    } 
-    return (
-        <div> 
-            <button onClick={showAndHide}>Change Color</button>
-            <h1 style={{ color: textColor }}>HI, MY NAME IS ELYOR</h1>        
+// export default function App() {
+//     const [textColor, setTextColor] = useState("black")
+
+//     const showAndHide = () => {
+//         return (
+//             setTextColor(textColor === "black"? "red" :"black")
+//         )
+//     } 
+//     return (
+//         <div> 
+//             <button onClick={showAndHide}>Change Color</button>
+//             <h1 style={{ color: textColor }}>HI, MY NAME IS ELYOR</h1>        
            
-        </div>
-    )
-}
+//         </div>
+//     )
+// }
 
 
 

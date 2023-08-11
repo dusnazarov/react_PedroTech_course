@@ -1,13 +1,14 @@
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import {Home} from "./pages/Home"
+import {Contact} from "./pages/Contact"
+import {Profile} from "./pages/Profile"
+import {Navbar} from "./pages/Navbar"
+import React, {useState, createContext} from "react"
 
-// 1) ////////////////////////////////////////////////////////
-// import React, {useState} from "react"
-// import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-// import {Home} from "./pages/Home"
-// import {Contact} from "./pages/Contact"
-// import {Profile} from "./pages/Profile"
-// import {Navbar} from "./pages/Navbar"
+export const Appcontext = createContext()
 
- 
+
+// 1) //////////////////////////////////////////////////////// 
 // export default function App()  {     
 //     const [username, setUsername] = useState("Elyor");
 
@@ -28,15 +29,6 @@
 
 
 // 2) ////////////////////////////////////////////////////////
-
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import {Home} from "./pages/Home"
-import {Contact} from "./pages/Contact"
-import {Profile} from "./pages/Profile"
-import {Navbar} from "./pages/Navbar"
-import React, {useState, createContext} from "react"
-
-export const Appcontext = createContext()
  
 export default function App()  {     
     const [username, setUsername] = useState("Elyor");
